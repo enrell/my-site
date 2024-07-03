@@ -13,7 +13,25 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        sans: ['Jost', 'sans-serif'],
+      },
+      fontWeight: {
+        extrabold: "800",
+      },
     },
+    colors: {
+      'black': '#1E1E1E',
+      'white': '#FFFFFF',
+    },
+
+    screens: {
+      'tablet': '640px',
+
+      'laptop': '1024px',
+
+      'desktop': '1280px',
+    }
   },
   plugins: [],
 };
