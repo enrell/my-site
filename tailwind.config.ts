@@ -6,6 +6,9 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  
+  darkMode: 'media',
+
   theme: {
     extend: {
       backgroundImage: {
@@ -26,11 +29,13 @@ const config: Config = {
     },
 
     screens: {
-      'tablet': '640px',
+      'sm': '360px',
 
-      'laptop': '1024px',
+      'md': '600px',
 
-      'desktop': '1280px',
+      'lg': '1024px',
+
+      'xl': '1400px',
     }
   },
   plugins: [],
