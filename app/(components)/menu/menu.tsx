@@ -91,7 +91,7 @@ export function Menu() {
                 onClick={() => handleNavigation("about")}
                 className="hover:text-gray-300 transition-colors duration-200"
               >
-                Sobre mim
+                About Me
               </button>
             </li>
             <li>
@@ -99,7 +99,7 @@ export function Menu() {
                 onClick={() => handleNavigation("social")}
                 className="hover:text-gray-300 transition-colors duration-200"
               >
-                Minhas redes
+                My Networks
               </button>
             </li>
             <li>
@@ -107,7 +107,7 @@ export function Menu() {
                 onClick={() => handleNavigation("technologies")}
                 className="hover:text-gray-300 transition-colors duration-200"
               >
-                Stack de tecnologias
+                Technology Stack
               </button>
             </li>
             <li>
@@ -115,7 +115,7 @@ export function Menu() {
                 onClick={() => handleNavigation("projects")}
                 className="hover:text-gray-300 transition-colors duration-200"
               >
-                Projetos
+                Projects
               </button>
             </li>
           </ul>
