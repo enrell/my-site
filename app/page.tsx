@@ -126,9 +126,9 @@ const Home = () => {
               </h2>
               <div className="flex justify-center md:justify-start space-x-16">
                 {[
-                  { icon: socialIcons.LinkedIn, name: "LinkedIn", link: "https://www.linkedin.com" },
-                  { icon: socialIcons.GitHub, name: "GitHub", link: "https://www.github.com" },
-                  { icon: socialIcons.DevCommunity, name: "Dev Community", link: "https://dev.to" },
+                  { icon: socialIcons.LinkedIn, name: "LinkedIn", link: "www.linkedin.com/in/enrell-sa" },
+                  { icon: socialIcons.GitHub, name: "GitHub", link: "https://www.github.com/enrell" },
+                  { icon: socialIcons.DevCommunity, name: "Dev Community", link: "https://dev.to/enrell" },
                 ].map((social, idx) => (
                   <a
                     key={idx}
